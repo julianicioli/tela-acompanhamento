@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acompanhamento de Inscrição</title>
+    <link rel="stylesheet" href="acompanhamento.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Acompanhamento de Inscrição</h1>
+        <div class="form-container">
+            <input type="text" id="nome" placeholder="Nome do Professor">
+            <input type="text" id="curso" placeholder="Curso"> 
+            <select id="status">
+                <option value="Status">Status</option>
+                <option value="Aprovado">Aprovado</option>
+                <option value="Pendente">Pendente</option>
+                <option value="Reprovado">Reprovado</option>
+            </select>
+            <button onclick="AdicionarProfessor">Adicionar Professor</button>
+        </div>
+        <div class="status-container" id="status-container">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
